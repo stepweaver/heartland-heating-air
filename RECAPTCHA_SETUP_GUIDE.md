@@ -1,8 +1,8 @@
-# reCAPTCHA Setup Guide for Heartland Heating + Air
+# reCAPTCHA Setup Guide for λlambda Heating & Air (Demo)
 
 ## Overview
 
-The Heartland Heating + Air website has reCAPTCHA integration implemented in two forms:
+The λlambda Heating & Air demo website has reCAPTCHA integration implemented in two forms:
 
 1. **Contact Form** - Main quote request form
 2. **Job Application Forms** - Individual job posting application forms
@@ -42,7 +42,7 @@ Both forms are currently using placeholder site keys and need to be configured w
 
 3. **Configure the site:**
 
-   - **Label:** "Heartland Heating + Air"
+   - **Label:** "λlambda Heating & Air (Demo)"
    - **Domains:** Add your domains:
      - `localhost` (for development)
      - `heartlandheatingair.com` (production)

@@ -546,23 +546,27 @@ ${sitemapEntries.map(url => `  <url>
     return sitemapEntries.length;
 }
 
-// Run the generator
-if (require.main === module) {
-    (async () => {
-        try {
-            const { generatedPages, locationsDir } = await generateAllPages();
-            const sitemapUrls = await generateSitemap();
+// Run the generator when invoked directly (CommonJS or ESM)
+const isDirectRun = typeof process !== 'undefined' &&
+  process.argv &&
+  process.argv[1] &&
+  process.argv[1].endsWith('generate-location-pages.js');
 
-            // Success output
-            process.stdout.write(`✅ Generated ${generatedPages} location-service pages\n`);
-            process.stdout.write(`📁 Pages created in: ${locationsDir}\n`);
-            process.stdout.write(`📄 Generated sitemap.xml with ${sitemapUrls} URLs\n`);
-            process.stdout.write(`🎉 Location SEO pages generated successfully!\n`);
-        } catch (error) {
-            process.stderr.write(`Error generating pages: ${error.message}\n`);
-            process.exit(1);
-        }
-    })();
+if (isDirectRun) {
+  (async () => {
+    try {
+      const { generatedPages, locationsDir } = await generateAllPages();
+      const sitemapUrls = await generateSitemap();
+
+      process.stdout.write(`✅ Generated ${generatedPages} location-service pages\n`);
+      process.stdout.write(`📁 Pages created in: ${locationsDir}\n`);
+      process.stdout.write(`📄 Generated sitemap.xml with ${sitemapUrls} URLs\n`);
+      process.stdout.write(`🎉 Location SEO pages generated successfully!\n`);
+    } catch (error) {
+      process.stderr.write(`Error generating pages: ${error.message}\n`);
+      process.exit(1);
+    }
+  })();
 }
 
-module.exports = { generateAllPages, generateSitemap, loadData }; 
+module.exports = { generateAllPages, generateSitemap, loadData };

@@ -1,5 +1,5 @@
-// Careers Data for Heartland Heating + Air
-// This file contains all career information for dynamic loading
+// Careers Data for λlambda Heating & Air (Demo)
+// This file contains sample career information for dynamic loading
 
 export const careersData = {
   benefits: [
@@ -58,7 +58,7 @@ export const careersData = {
         'Maintain company vehicle and tools',
       ],
       salary: '$45,000 - $65,000',
-      location: 'Indianapolis Metro Area',
+      location: 'Metro City Region',
     },
     {
       id: 2,
@@ -83,7 +83,7 @@ export const careersData = {
         'Assist with equipment delivery and setup',
       ],
       salary: '$50,000 - $70,000',
-      location: 'Indianapolis Metro Area',
+      location: 'Metro City Region',
     },
     {
       id: 3,
@@ -108,7 +108,7 @@ export const careersData = {
         'Maintain customer records and files',
       ],
       salary: '$35,000 - $45,000',
-      location: 'Indianapolis Office',
+      location: 'Metro City Office',
     },
     {
       id: 4,
@@ -133,7 +133,7 @@ export const careersData = {
         'Provide technical support and training',
       ],
       salary: '$60,000 - $80,000',
-      location: 'Central Indiana',
+      location: 'Central Demo Region',
     },
     {
       id: 5,
@@ -158,33 +158,33 @@ export const careersData = {
         'Stay current with industry trends',
       ],
       salary: '$40,000 - $60,000 + Commission',
-      location: 'Indianapolis Metro Area',
+      location: 'Metro City Region',
     },
   ],
   applicationProcess: [
     {
       step: 1,
       title: 'Submit Application',
-      description: 'Complete our online application form with your resume and cover letter.',
-      color: 'bg-heartland-red',
+      description: 'Complete our online application form with your resume and any supporting details.',
+      color: 'bg-brand-primary',
     },
     {
       step: 2,
       title: 'Phone Screening',
       description: 'Brief phone conversation to discuss your background and interest in the position.',
-      color: 'bg-heartland-blue',
+      color: 'bg-brand-secondary',
     },
     {
       step: 3,
       title: 'In-Person Interview',
-      description: 'Meet with our team to discuss your experience and tour our facility.',
-      color: 'bg-heartland-red',
+      description: 'Meet with our team to discuss your experience and learn more about the role.',
+      color: 'bg-brand-primary',
     },
     {
       step: 4,
       title: 'Job Offer',
-      description: 'If selected, we\'ll extend an offer and welcome you to the Heartland Heating + Air family.',
-      color: 'bg-heartland-blue',
+      description: 'If selected, we\'ll extend an offer and welcome you to the λlambda Heating & Air demo team (in a real deployment, this would be your company).',
+      color: 'bg-brand-secondary',
     },
   ],
 };

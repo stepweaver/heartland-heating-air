@@ -1,4 +1,4 @@
-# Heartland Heating & Air - Booking Solution Guide
+# λlambda Heating & Air (Demo) - Booking Solution Guide
 
 ## 🎯 Recommended Booking Strategy
 
@@ -80,7 +80,7 @@
 
 ---
 
-## 📱 Current Implementation
+## 📱 Current Implementation (Demo)
 
 ### **Booking Options Available**
 

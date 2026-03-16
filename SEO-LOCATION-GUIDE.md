@@ -1,6 +1,6 @@
 # Long-Tail Location SEO Implementation Guide
 
-This guide explains the completed implementation of long-tail SEO location results for Heartland Heating & Air. The solution creates targeted landing pages for location-service combinations to rank for specific local search queries.
+This guide explains the completed implementation of long-tail SEO location results for the λlambda Heating & Air demo. The solution creates targeted landing pages for location-service combinations to rank for specific local search queries in a reusable way.
 
 ## 🎯 What This Solves
 
@@ -27,7 +27,7 @@ This guide explains the completed implementation of long-tail SEO location resul
 
 ### 1. **Data Structure** (`public/data/locations.js`)
 
-- **Locations**: Indianapolis, Carmel, Fishers, Westfield, Noblesville
+- **Locations**: Metro City, Northfield, Lakeside, Westbrook, Riverton
 - **Services**: 7 comprehensive services including emergency HVAC, HVAC repair, furnace installation, AC service, maintenance, duct cleaning, and indoor air quality
 - **Business Info**: Contact details, certifications, service areas
 
@@ -38,12 +38,11 @@ This guide explains the completed implementation of long-tail SEO location resul
 - Includes proper SEO meta tags and schema markup
 - Generates sitemap.xml automatically
 
-### 3. **Client-Side Router** (`public/Router.js`)
+### 3. **Client-Side Rendering**
 
-- Handles dynamic routing for location pages
-- Updates page meta tags and content
-- Provides smooth navigation experience
-- Maintains SEO-friendly URLs
+- Static HTML pages for each location/service pairing
+- Scripts update meta tags and enhance content where needed
+- Maintains SEO-friendly URLs while keeping the system simple to host
 
 ## 📁 Generated File Structure
 
@@ -106,7 +105,7 @@ Visit generated pages:
 
 Each page includes:
 
-- **Title Tag**: "[Service] in [City], [State] | Heartland Heating & Air"
+- **Title Tag**: "[Service] in [City], [State] | λlambda Heating & Air (Demo)"
 - **Meta Description**: Compelling description with location, service, and CTA
 - **H1 Tag**: Primary keyword targeting
 - **Canonical URL**: Prevents duplicate content issues
@@ -117,7 +116,7 @@ Each page includes:
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Heartland Heating + Air",
+  "name": "λlambda Heating & Air (Demo)",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Indianapolis",
@@ -266,11 +265,9 @@ newcity: {
 - Increased conversion rates
 - More qualified leads
 
-### 3. **Measurable KPIs**
+### 3. **Measurable KPIs (Example Only)**
 
-- Organic traffic increase: 40-60%
-- Local search rankings: Top 3 positions
-- Lead generation: 25-35% increase
+The original client implementation this demo was inspired by saw meaningful improvements in local rankings and lead volume, but specific numbers depend heavily on market, competition, and execution. For portfolio purposes, treat this section as an architectural reference rather than a guarantee of results.
 
 ## 🛠️ Maintenance
 
@@ -364,4 +361,4 @@ For questions or customization needs:
 - Email: info@heartlandheatingair.com
 - Phone: (317) 555-0123
 
-This implementation provides a solid foundation for long-tail location SEO that will drive qualified local traffic and increase conversions for Heartland Heating & Air.
+This implementation provides a solid foundation for long-tail location SEO that can drive qualified local traffic and increase conversions for a typical service business; in this repository it is presented as the fictional λlambda Heating & Air demo.

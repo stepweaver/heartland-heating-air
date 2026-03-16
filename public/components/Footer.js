@@ -15,20 +15,20 @@ export default class Footer {
               <div class="footer-section footer-brand">
                 <div class="footer-logo">
                   <div class="logo-heart-container">
-                    <img src="/img/hha_heart.png" alt="Heartland Heating + Air Heart Logo" class="logo-heart">
+                    <img src="/img/hha_heart.png" alt="λlambda Heating & Air Logo" class="logo-heart">
                   </div>
                   <div class="logo-text-container">
-                    <span class="logo-text">HEARTLAND</span>
+                    <span class="logo-text">λLAMBDA</span>
                     <span class="logo-tagline">HEATING <span class="plus-symbol">+</span> AIR</span>
                   </div>
                 </div>
                 <p class="footer-description">
-                  Comfort crafted in the Midwest. American-made quality with neighborly service across the Indianapolis area.
+                  λlambda Heating & Air is a fictional brand used to showcase a reusable architecture for multi-location SEO, lead generation flows, and modular marketing components.
                 </p>
                 <div class="footer-contact">
                   <p><i class="fas fa-phone"></i> (317) 555-0123</p>
-                  <p><i class="fas fa-envelope"></i> info@heartlandheatingair.com</p>
-                  <p><i class="fas fa-map-marker-alt"></i> Indianapolis, IN & Surrounding Areas</p>
+                  <p><i class="fas fa-envelope"></i> hello@example.com</p>
+                  <p><i class="fas fa-map-marker-alt"></i> Metro City & Surrounding Demo Areas</p>
                 </div>
               </div>
               
@@ -93,7 +93,7 @@ export default class Footer {
             <!-- Footer Bottom -->
             <div class="footer-bottom">
               <div class="footer-legal">
-                <p>&copy; ${this.currentYear} Heartland Heating + Air. All rights reserved.</p>
+                <p>&copy; ${this.currentYear} λlambda Heating & Air (Demo). All rights reserved.</p>
                 <div class="legal-links">
                   <a href="/privacy.html">Privacy Policy</a>
                   <a href="/terms.html">Terms of Service</a>
@@ -106,12 +106,7 @@ export default class Footer {
               </div>
             </div>
             
-            <!-- Agency Credits -->
-            <div class="footer-agency">
-              <div class="agency-credit">
-                <p>Website by <a href="https://heropointconsulting.com" target="_blank" rel="noopener">Hero Point Consulting</a> <img src="/img/hpc_design.png" alt="Hero Point Consulting Design Logo" class="hpc-logo-img"></p>
-              </div>
-            </div>
+            <!-- Agency credits intentionally omitted in demo version -->
           </div>
         </div>
       </footer>

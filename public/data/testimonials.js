@@ -1,8 +1,8 @@
 /**
  * Testimonials Data
  * 
- * This file contains testimonial data that mimics the structure of Google Reviews API
- * Eventually this will be replaced with actual Google Reviews API calls
+ * This file contains testimonial data that mimics the structure of Google Reviews API.
+ * In this demo, all testimonials are fictional sample content for λlambda Heating & Air.
  * 
  * Structure matches Google Reviews API format:
  * - author_name, author_url, profile_photo_url
@@ -14,127 +14,127 @@ export const testimonialsData = {
   // Mimics Google Places API response structure
   result: {
     rating: 4.9,
-    user_ratings_total: 187,
+    user_ratings_total: 42,
     reviews: [
       {
-        author_name: "Sarah Martinez",
+        author_name: "Sample Reviewer One",
         author_url: "https://www.google.com/maps/contrib/...",
         profile_photo_url: "https://lh3.googleusercontent.com/...",
         rating: 5,
         relative_time_description: "2 weeks ago",
-        text: "Heartland fixed our furnace in the middle of a blizzard – within two hours of calling! Professional, knowledgeable, and fair pricing. We won't call anyone else.",
-        time: 1703875200, // Unix timestamp
-        location: "Indianapolis, IN"
+        text: "λlambda Heating & Air (Demo) restored our heat in just a few hours. The tech walked through every step and the experience felt exactly like a real-world pro visit.",
+        time: 1703875200,
+        location: "Metro City, MC"
       },
       {
-        author_name: "Mike Rodriguez",
+        author_name: "Sample Reviewer Two",
         author_url: "https://www.google.com/maps/contrib/...",
         profile_photo_url: "https://lh3.googleusercontent.com/...",
         rating: 5,
         relative_time_description: "3 weeks ago",
-        text: "Outstanding service from start to finish. They installed our new AC system quickly and efficiently, cleaned up everything, and the price was very competitive. True Midwestern hospitality.",
+        text: "From the first call to the final walkthrough, the process this demo models is clear, efficient, and focused on homeowner comfort.",
         time: 1703270400,
-        location: "Carmel, IN"
+        location: "Northfield, MC"
       },
       {
-        author_name: "Jennifer Lewis",
+        author_name: "Sample Property Manager",
         author_url: "https://www.google.com/maps/contrib/...",
         profile_photo_url: "https://lh3.googleusercontent.com/...",
         rating: 5,
         relative_time_description: "1 month ago",
-        text: "We've been using Heartland for our property management company for 3 years. They're reliable, honest, and always provide excellent service to our tenants. Highly recommend.",
+        text: "For our demo portfolio of rental properties, λlambda's system shows how a single site can coordinate requests across dozens of addresses without losing detail.",
         time: 1702665600,
-        location: "Fishers, IN"
+        location: "Lakeside, MC"
       },
       {
-        author_name: "Robert Kim",
+        author_name: "Sample Emergency Caller",
         author_url: "https://www.google.com/maps/contrib/...",
         profile_photo_url: "https://lh3.googleusercontent.com/...",
         rating: 5,
         relative_time_description: "1 month ago",
-        text: "Emergency repair on Sunday morning - they actually answered and had someone here within an hour. The technician was courteous and got our heat working perfectly.",
+        text: "The 24/7 emergency flow in this demo is exactly what we expect from a modern service site: clear CTAs and fast routing to a real person.",
         time: 1702060800,
-        location: "Westfield, IN"
+        location: "Westbrook, MC"
       },
       {
-        author_name: "Amanda Thompson",
+        author_name: "Sample Homeowner",
         author_url: "https://www.google.com/maps/contrib/...",
         profile_photo_url: "https://lh3.googleusercontent.com/...",
         rating: 5,
         relative_time_description: "2 months ago",
-        text: "Forrest and his team installed a new HVAC system in our home. The work was completed on time, within budget, and they were incredibly professional. The system runs so much quieter than our old one!",
+        text: "The demo installation journey—from quote to scheduling to follow-up—shows how you can explain complex HVAC work in friendly, human language.",
         time: 1701456000,
-        location: "Noblesville, IN"
+        location: "Riverton, MC"
       },
       {
-        author_name: "David Chen",
+        author_name: "Sample Facilities Director",
         author_url: "https://www.google.com/maps/contrib/...",
         profile_photo_url: "https://lh3.googleusercontent.com/...",
         rating: 5,
         relative_time_description: "2 months ago",
-        text: "Heartland has been maintaining our office building's HVAC system for 2 years. Always professional, always on time, and they've saved us thousands in energy costs with their recommendations.",
+        text: "This demo makes it easy to imagine multi-property maintenance requests flowing into a single, organized inbox.",
         time: 1700851200,
-        location: "Indianapolis, IN"
+        location: "Metro City, MC"
       },
       {
-        author_name: "Lisa Brown",
+        author_name: "Sample Second Opinion",
         author_url: "https://www.google.com/maps/contrib/...",
         profile_photo_url: "https://lh3.googleusercontent.com/...",
         rating: 5,
         relative_time_description: "3 months ago",
-        text: "Called them for a second opinion on a costly repair another company quoted. Heartland was honest, fair, and fixed the issue for half the price. They earned a customer for life.",
+        text: "The comparison section in this demo illustrates how to communicate options and pricing without overwhelming visitors.",
         time: 1700246400,
-        location: "Zionsville, IN"
+        location: "Riverside, MC"
       },
       {
-        author_name: "James Wilson",
+        author_name: "Sample IAQ Customer",
         author_url: "https://www.google.com/maps/contrib/...",
         profile_photo_url: "https://lh3.googleusercontent.com/...",
         rating: 5,
         relative_time_description: "3 months ago",
-        text: "Excellent air quality assessment and duct cleaning service. The technician explained everything clearly and the results were immediate - we can actually breathe better in our home now!",
+        text: "The indoor air quality section of this demo site is a great pattern for explaining invisible benefits like filtration and ventilation.",
         time: 1699641600,
-        location: "Avon, IN"
+        location: "Greenfield, MC"
       },
       {
-        author_name: "Maria Gonzalez",
+        author_name: "Sample Commercial Client",
         author_url: "https://www.google.com/maps/contrib/...",
         profile_photo_url: "https://lh3.googleusercontent.com/...",
         rating: 5,
         relative_time_description: "4 months ago",
-        text: "We had an emergency with our commercial kitchen's ventilation system. Heartland responded immediately and had us back up and running the same day. Saved our business from major losses.",
+        text: "The commercial HVAC pages in this demo show how to talk to operations teams in plain language while still covering technical details.",
         time: 1699036800,
-        location: "Indianapolis, IN"
+        location: "Metro City, MC"
       },
       {
-        author_name: "Kevin O'Connor",
+        author_name: "Sample Smart Home Owner",
         author_url: "https://www.google.com/maps/contrib/...",
         profile_photo_url: "https://lh3.googleusercontent.com/...",
         rating: 4,
         relative_time_description: "4 months ago",
-        text: "Great service overall. The technician was knowledgeable and fixed our AC quickly. Only minor complaint is scheduling took a bit longer than expected, but the quality of work made up for it.",
+        text: "The smart thermostat and maintenance content here is a solid blueprint for explaining long-term value—even when scheduling takes a few steps.",
         time: 1698432000,
-        location: "Plainfield, IN"
+        location: "Easton, MC"
       },
       {
-        author_name: "Rachel Davis",
+        author_name: "Sample Maintenance Member",
         author_url: "https://www.google.com/maps/contrib/...",
         profile_photo_url: "https://lh3.googleusercontent.com/...",
         rating: 5,
         relative_time_description: "5 months ago",
-        text: "Heartland installed a smart thermostat system in our home and trained us on how to use it. The energy savings have been incredible - already paid for itself in just a few months!",
+        text: "The maintenance plan explained in this demo clearly shows how recurring revenue products can be woven into a service website.",
         time: 1697827200,
-        location: "Carmel, IN"
+        location: "Northfield, MC"
       },
       {
-        author_name: "Thomas Anderson",
+        author_name: "Sample Long-Term Customer",
         author_url: "https://www.google.com/maps/contrib/...",
         profile_photo_url: "https://lh3.googleusercontent.com/...",
         rating: 5,
         relative_time_description: "5 months ago",
-        text: "Outstanding preventive maintenance service. They caught a potential issue before it became a major problem and saved us from what could have been a very expensive repair.",
+        text: "Over time, the patterns in this demo—clear CTAs, simple forms, and structured content—add up to a site that feels genuinely trustworthy.",
         time: 1697222400,
-        location: "Fishers, IN"
+        location: "Lakeside, MC"
       }
     ]
   }

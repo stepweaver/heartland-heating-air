@@ -77,7 +77,7 @@ export class LocationPage {
       <section class="location-cta">
         <div class="container">
           <h3>Need ${this.service.name} in ${this.location.name}?</h3>
-          <p>Contact Heartland Heating + Air today for reliable ${this.service.name.toLowerCase()} services.</p>
+          <p>Contact our demo local service brand today for reliable ${this.service.name.toLowerCase()} services.</p>
           <div class="cta-buttons">
             <a href="tel:(317) 555-0123" class="btn btn-primary">
               <i class="fas fa-phone"></i> Call (317) 555-0123

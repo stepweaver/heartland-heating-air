@@ -1,4 +1,4 @@
-// Services Data for Heartland Heating + Air
+// Services Data for λlambda Heating & Air (Demo)
 // This file contains all service information for dynamic loading
 
 export const servicesData = {
@@ -6,7 +6,7 @@ export const servicesData = {
     id: 'ac-repair',
     title: 'AC Repair & Replacement',
     shortTitle: 'AC Repair',
-    description: 'Professional AC repair and replacement in Indianapolis. Fast, reliable service for all air conditioning systems. Available 24/7 for emergencies!',
+    description: 'Professional AC repair and replacement in the Metro City region. Fast, reliable service for all air conditioning systems. Available 24/7 for emergencies.',
     heroTitle: 'Expert AC Repair & Replacement',
     heroSubtitle: 'Fast, reliable air conditioning service when you need it most',
     icon: 'fas fa-snowflake',
@@ -55,7 +55,7 @@ export const servicesData = {
       note: 'Prices vary based on system size and complexity'
     },
 
-    areas: ['Indianapolis', 'Carmel', 'Fishers', 'Noblesville', 'Westfield', 'Zionsville', 'Greenwood', 'Avon']
+    areas: ['Metro City', 'Northfield', 'Lakeside', 'Riverton', 'Westbrook', 'Riverside', 'Greenfield', 'Easton']
   },
 
   'furnace-installation': {
@@ -111,7 +111,7 @@ export const servicesData = {
       note: 'Prices depend on system size and efficiency rating'
     },
 
-    areas: ['Indianapolis', 'Carmel', 'Fishers', 'Noblesville', 'Westfield', 'Zionsville', 'Greenwood', 'Avon']
+    areas: ['Metro City', 'Northfield', 'Lakeside', 'Riverton', 'Westbrook', 'Riverside', 'Greenfield', 'Easton']
   },
 
   'emergency-service': {
@@ -167,7 +167,7 @@ export const servicesData = {
       note: 'Emergency service fee includes diagnostic and basic repair'
     },
 
-    areas: ['Indianapolis', 'Carmel', 'Fishers', 'Noblesville', 'Westfield', 'Zionsville', 'Greenwood', 'Avon']
+    areas: ['Metro City', 'Northfield', 'Lakeside', 'Riverton', 'Westbrook', 'Riverside', 'Greenfield', 'Easton']
   },
 
   'commercial-hvac': {
@@ -223,7 +223,7 @@ export const servicesData = {
       note: 'Commercial pricing varies based on system size and requirements'
     },
 
-    areas: ['Indianapolis Metro', 'Central Indiana', 'Multi-state coverage available']
+    areas: ['Metro City Metro', 'Central Demo Region', 'Multi-region coverage available']
   },
 
   'indoor-air-quality': {
@@ -279,7 +279,7 @@ export const servicesData = {
       note: 'Pricing varies based on home size and system requirements'
     },
 
-    areas: ['Indianapolis', 'Carmel', 'Fishers', 'Noblesville', 'Westfield', 'Zionsville', 'Greenwood', 'Avon']
+    areas: ['Metro City', 'Northfield', 'Lakeside', 'Riverton', 'Westbrook', 'Riverside', 'Greenfield', 'Easton']
   },
 
   'maintenance-plans': {
@@ -335,7 +335,7 @@ export const servicesData = {
       note: 'Plans include bi-annual maintenance visits'
     },
 
-    areas: ['Indianapolis', 'Carmel', 'Fishers', 'Noblesville', 'Westfield', 'Zionsville', 'Greenwood', 'Avon']
+    areas: ['Metro City', 'Northfield', 'Lakeside', 'Riverton', 'Westbrook', 'Riverside', 'Greenfield', 'Easton']
   }
 };
 

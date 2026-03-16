@@ -1,150 +1,140 @@
-# Heartland Heating + Air - Long-Tail SEO Implementation
+## Local Service SEO Demo
 
-## 🏢 Development Team
+A reusable multi-location lead-generation website demo for local service businesses.
 
-- **Agency**: Hero Point Consulting
-- **Client**: Heartland Heating + Air
-- **Project Date**: January 2025
-- **Project Type**: Long-tail Location SEO Implementation
+This project showcases a data-driven SEO architecture that generates location + service landing pages from centralized content, while also supporting reusable marketing pages, contact forms, quote requests, and careers flows.
 
-## 📋 Project Overview
+### What This Project Demonstrates
 
-This project implements a comprehensive long-tail SEO strategy for Heartland Heating + Air, creating targeted landing pages for location-service combinations to rank for specific local search queries.
+- Data-driven long-tail SEO page generation
+- Centralized content modeling for locations, services, and business info
+- Reusable modular frontend components in vanilla JavaScript
+- Express-based form handling for contact, quote, and job-application flows
+- Email integration with Nodemailer
+- Spam protection with Google reCAPTCHA
+- Static-friendly architecture that can be hosted on platforms like Netlify or Vercel
 
-### 🎯 Key Features
+### Core Features
 
-- 60+ location-service combination pages
-- 5 target locations (Indianapolis, Carmel, Fishers, Westfield, Noblesville)
-- 12 comprehensive HVAC services
-- Local business schema markup
-- Mobile-responsive design
-- SEO-optimized meta tags and content
+- Multi-location service-area architecture
+- Generated city/service landing pages
+- Reusable homepage, service, about, contact, and careers pages
+- Centralized business, service, and testimonial data
+- Mobile-responsive marketing site structure
+- SEO-focused metadata and schema support
+- Contact and quote form endpoints
+- Optional careers / hiring workflow
 
-## 🚀 Quick Start
+### Tech Stack
 
-### Installation
+- Frontend: HTML, CSS, Vanilla JavaScript
+- Backend: Node.js, Express
+- Email: Nodemailer
+- Bot Protection: Google reCAPTCHA
+- Build Strategy: Static page generation + lightweight Node server
+
+### Quick Start
+
+#### 1. Install dependencies
 
 ```bash
 npm install
 ```
 
-### Email & reCAPTCHA Setup (Required for Contact Forms)
+#### 2. Create your environment file
 
-Before running the application, you need to set up email functionality and reCAPTCHA:
+```bash
+cp env.example .env
+```
 
-1. **Copy the environment template:**
+#### 3. Configure environment variables
 
-   ```bash
-   cp env.example .env
-   ```
+Set the following values in your `.env` file:
 
-2. **Follow the setup guides:**
-   - See `EMAIL_SETUP.md` for detailed instructions
-   - Configure Gmail App Password
-   - Set up Google reCAPTCHA keys
-   - Configure environment variables
+```bash
+EMAIL_USER=your-email@gmail.com
+EMAIL_PASS=your-app-password
+BUSINESS_EMAIL=your-business-email@example.com
+PORT=3000
+RECAPTCHA_SITE_KEY=your_site_key_here
+RECAPTCHA_SECRET_KEY=your_secret_key_here
+```
 
-### Development
+#### 4. Run the development server
 
 ```bash
 npm run dev
 ```
 
-### Generate SEO Pages
+#### 5. Generate SEO pages
 
 ```bash
 npm run generate-seo
 ```
 
-### Production Build
+#### 6. Generate pages and prepare for production
 
 ```bash
 npm run seo-build
 ```
 
-## 📁 Project Structure
+### Available Scripts
 
-```
-heartland-heating-air/
+- `npm run dev` — start the local Express server
+- `npm run generate-seo` — generate location/service landing pages
+- `npm run seo-build` — generate SEO pages and run the build step
+- `npm run preview` — preview static frontend files
+
+### Project Structure
+
+```text
+project-root/
 ├── public/
-│   ├── locations/          # Generated location-service pages
-│   ├── data/
-│   │   └── locations.js    # Centralized data structure
-│   ├── components/         # Reusable UI components
-│   └── sitemap.xml        # Auto-generated sitemap
+│   ├── components/              # Reusable UI components
+│   ├── data/                    # Centralized content/data files
+│   ├── locations/               # Generated location-service pages
+│   ├── img/                     # Images and media assets
+│   ├── index.html               # Homepage
+│   ├── service.html             # Service page shell
+│   ├── contact.html             # Contact page
+│   ├── careers.html             # Careers page
+│   ├── sitemap.xml              # Generated sitemap
+│   ├── styles.css               # Global styles
+│   └── main.js                  # Frontend entry point
 ├── scripts/
-│   └── generate-location-pages.js  # Main SEO generator
-├── server.js              # Express server for form handling
-├── email-config.js        # Nodemailer configuration
-├── env.example           # Environment variables template
-├── EMAIL_SETUP.md        # Email setup instructions
-└── SEO-LOCATION-GUIDE.md  # Implementation documentation
+│   └── generate-location-pages.js
+├── server.js                    # Express server / form endpoints
+├── email-config.js              # Nodemailer config and templates
+├── env.example                  # Environment variable template
+└── README.md
 ```
 
-## 🔧 Technical Stack
+### How the SEO System Works
 
-- **Frontend**: Vanilla JavaScript, HTML5, CSS3
-- **Backend**: Node.js, Express
-- **Email**: Nodemailer with Gmail SMTP
-- **Build Tool**: Live Server
-- **SEO**: Static site generation with schema markup
-- **Hosting**: Static file hosting (Netlify, Vercel, etc.)
+The project uses centralized data files to define:
 
-## 📊 SEO Implementation
+- locations
+- services
+- business details
 
-### Generated Pages
+A generation script combines that data to create SEO landing pages for each supported location/service pairing. This makes it easy to scale the site across markets without duplicating content structure by hand.
 
-- Location index pages for each city
-- Service-specific pages for each location
-- Emergency service pages
-- Maintenance plan pages
-- Indoor air quality pages
+### Portfolio Notes
 
-### SEO Features
+This repository is presented as a generic demo to highlight the architecture and implementation approach rather than any single client engagement.
 
-- Local business schema markup
-- Location-specific meta tags
-- Long-tail keyword optimization
-- Mobile-first responsive design
-- Fast loading times
+Areas of focus:
 
-## 🎨 Design Philosophy
+- scalable local SEO structure
+- reusable content architecture
+- modular component organization
+- practical lead-generation UX
+- lightweight backend integration
 
-- **Mobile-first**: Optimized for mobile search
-- **Conversion-focused**: Clear CTAs and contact information
-- **Local trust signals**: Area-specific content and landmarks
-- **Professional branding**: Consistent with client's brand
+### Deployment Notes
 
-## 📈 Expected Results
+This project can be adapted for static hosting with serverless form handling, or deployed with a lightweight Node server when server-side email delivery is needed.
 
-- Improved local search visibility
-- Higher rankings for location-specific keywords
-- Increased qualified lead generation
-- Better user engagement and conversion rates
+### License
 
-## 🛠️ Maintenance
-
-### Regular Updates
-
-- Monitor search performance via Google Search Console
-- Update location information as needed
-- Add new services or locations
-- Refresh content for seasonal relevance
-
-### Technical Maintenance
-
-- Check page load speeds
-- Monitor Core Web Vitals
-- Update schema markup as needed
-- Maintain sitemap accuracy
-
-## 📞 Support
-
-For technical support or questions about this implementation:
-
-- **Agency**: Hero Point Consulting
-- **Documentation**: See `SEO-LOCATION-GUIDE.md` for detailed implementation guide
-
----
-
-_This project was developed by Hero Point Consulting for Heartland Heating + Air as part of their long-tail SEO strategy implementation._
+MIT

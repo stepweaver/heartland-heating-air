@@ -1,4 +1,4 @@
-// WhyChoose Component for Heartland Heating + Air
+// WhyChoose Component for Local Service Demo
 // Trust signals and value propositions section
 
 export function createWhyChoose() {
@@ -33,8 +33,8 @@ export function createWhyChoose() {
     <section class="section bg-white">
       <div class="container">
         <div class="section-header text-center">
-          <h2>Why Midwest Families Trust Heartland</h2>
-          <p>American craftsmanship meets neighborly service in everything we do</p>
+          <h2>Why This Demo Architecture Works</h2>
+          <p>Data-driven content, reusable components, and pragmatic UX decisions working together</p>
         </div>
         <div class="why-choose-grid">
           ${reasons.map(reason => `

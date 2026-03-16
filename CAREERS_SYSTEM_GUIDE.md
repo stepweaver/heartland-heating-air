@@ -2,7 +2,7 @@
 
 ## Overview
 
-The careers system for Heartland Heating + Air has been successfully implemented with the following features:
+The careers system for the λlambda Heating & Air demo has been successfully implemented with the following features:
 
 - **Careers listing page** (`/careers.html`) - Shows all available positions and company benefits
 - **Individual job posting pages** - Dynamic pages for each position with application forms
@@ -87,13 +87,7 @@ Edit `public/data/careers.js` to:
 
 ### 3. Customize Styling
 
-The careers system uses Heartland Heating + Air's brand colors:
-
-- Primary Red: `#BE1E2D`
-- Primary Blue: `#0F2E6D`
-- Gray scale for text and backgrounds
-
-All styling is in `public/components/Careers.css` and follows the existing design system.
+The careers system uses the same primary brand colors defined for the demo site (see `public/styles.css`) along with a neutral gray scale for text and backgrounds. All styling is in `public/components/Careers.css` and follows the existing design system.
 
 ## URL Structure
 
@@ -107,7 +101,7 @@ All styling is in `public/components/Careers.css` and follows the existing desig
 - Proper meta titles and descriptions
 - Schema markup for job postings
 - Semantic HTML structure
-- Optimized for local search (Indianapolis area)
+- Optimized for local search (demo Metro City area)
 
 ## Form Handling
 

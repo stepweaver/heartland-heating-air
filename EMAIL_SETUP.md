@@ -1,6 +1,6 @@
-# Email Setup Guide for Heartland Heating + Air
+# Email Setup Guide for λlambda Heating & Air (Demo)
 
-This guide will help you set up nodemailer with Google SMTP to handle contact form submissions and send confirmation emails.
+This guide will help you set up nodemailer with Google SMTP to handle contact form submissions and send confirmation emails for this demo project.
 
 ## Prerequisites
 
@@ -42,7 +42,7 @@ This guide will help you set up nodemailer with Google SMTP to handle contact fo
    EMAIL_PASS=abcd efgh ijkl mnop
 
    # Where you want to receive business notifications
-   BUSINESS_EMAIL=your-business-email@example.com
+   BUSINESS_EMAIL=hello@example.com
 
    # Server port (optional, defaults to 3000)
    PORT=3000

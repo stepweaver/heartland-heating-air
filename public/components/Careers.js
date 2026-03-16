@@ -75,7 +75,7 @@ export function createCareersPage() {
         <div class="careers-hero-container">
           <h1 class="careers-hero-title">Join Our Team</h1>
           <p class="careers-hero-subtitle">
-            Be part of a dynamic team that's passionate about providing exceptional HVAC services and keeping our community comfortable year-round. Discover your next career opportunity with Heartland Heating + Air.
+            This demo careers page illustrates how a local service business could present roles, benefits, and an application process in a scalable, data-driven way.
           </p>
         </div>
       </section>
@@ -83,7 +83,7 @@ export function createCareersPage() {
       <!-- Benefits Section -->
       <section class="careers-benefits-section">
         <div class="careers-benefits-container">
-          <h2 class="careers-section-title text-center">Why Work at Heartland Heating + Air?</h2>
+          <h2 class="careers-section-title text-center">Why This Demo Careers System?</h2>
           <p class="careers-section-subtitle text-center">
             We believe in investing in our team members and creating an environment where everyone can thrive and grow.
           </p>

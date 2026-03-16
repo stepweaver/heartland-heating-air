@@ -94,7 +94,7 @@ const emailTemplates = {
 
         <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
           <p style="color: #6b7280; font-size: 14px;">
-            This email was sent from your Heartland Heating + Air contact form.
+            This email was sent from your λlambda Heating & Air (demo) contact form.
           </p>
         </div>
       </div>
@@ -103,7 +103,7 @@ const emailTemplates = {
 
   // Confirmation email sent to the customer
   customerConfirmation: (formData) => ({
-    subject: 'Thank you for contacting Heartland Heating + Air',
+    subject: 'Thank you for contacting λlambda Heating & Air (Demo)',
     html: `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
         <div style="text-align: center; margin-bottom: 30px;">
@@ -155,21 +155,21 @@ const emailTemplates = {
         </div>
 
         <div style="background: #f8fafc; padding: 20px; border-radius: 8px; margin: 20px 0;">
-          <h3 style="color: #374151; margin-top: 0;">Why Choose Heartland Heating + Air?</h3>
+          <h3 style="color: #374151; margin-top: 0;">Why This Demo Is Structured This Way</h3>
           <ul style="color: #374151; line-height: 1.8;">
-            <li>✅ <strong>Google Guaranteed</strong> - Your satisfaction is our priority</li>
-            <li>✅ <strong>Licensed & Insured</strong> - Professional, reliable service</li>
-            <li>✅ <strong>24/7 Emergency Service</strong> - We're here when you need us</li>
-            <li>✅ <strong>Commercial & Residential</strong> - From single homes to large portfolios</li>
+            <li>✅ <strong>Clear CTAs</strong> - The demo surfaces phone, form, and scheduling options together</li>
+            <li>✅ <strong>Structured Data</strong> - Requests are shaped for easy routing and follow-up</li>
+            <li>✅ <strong>24/7 Flow</strong> - Emergency contact paths are always visible</li>
+            <li>✅ <strong>Scales Up</strong> - Works for single homes or large portfolios</li>
           </ul>
         </div>
 
         <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
-          <p style="color: #6b7280; font-size: 14px;">
-            Heartland Heating + Air<br>
-            Indianapolis & Midwest Region<br>
+            <p style="color: #6b7280; font-size: 14px;">
+            λlambda Heating & Air (Demo)<br>
+            Metro City Region<br>
             <a href="tel:+13175550123" style="color: #3b82f6;">(317) 555-0123</a> | 
-            <a href="mailto:info@heartlandheatingair.com" style="color: #3b82f6;">info@heartlandheatingair.com</a>
+            <a href="mailto:hello@example.com" style="color: #3b82f6;">hello@example.com</a>
           </p>
         </div>
       </div>
@@ -254,7 +254,7 @@ const emailTemplates = {
 
         <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
           <p style="color: #6b7280; font-size: 14px;">
-            This application was submitted through your Heartland Heating + Air careers page.
+            This application was submitted through your λlambda Heating & Air (demo) careers page.
           </p>
         </div>
       </div>
@@ -263,7 +263,7 @@ const emailTemplates = {
 
   // Confirmation email sent to job applicants
   jobApplicationConfirmation: (formData) => ({
-    subject: `Application Received - ${formData.position} - Heartland Heating + Air`,
+    subject: `Application Received - ${formData.position} - λlambda Heating & Air (Demo)`,
     html: `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
         <div style="text-align: center; margin-bottom: 30px;">
@@ -316,21 +316,21 @@ const emailTemplates = {
         </div>
 
         <div style="background: #f8fafc; padding: 20px; border-radius: 8px; margin: 20px 0;">
-          <h3 style="color: #374151; margin-top: 0;">Why Work at Heartland Heating + Air?</h3>
+          <h3 style="color: #374151; margin-top: 0;">Why This Demo Careers Flow?</h3>
           <ul style="color: #374151; line-height: 1.8;">
-            <li>✅ <strong>Competitive Pay</strong> - Industry-leading compensation packages</li>
-            <li>✅ <strong>Health Benefits</strong> - Medical, dental, and vision coverage</li>
-            <li>✅ <strong>Professional Growth</strong> - Training and advancement opportunities</li>
-            <li>✅ <strong>Great Team</strong> - Supportive, collaborative work environment</li>
+            <li>✅ <strong>Realistic Fields</strong> - Mirrors what a real HVAC hiring form would capture</li>
+            <li>✅ <strong>Structured Data</strong> - Easy to route into an ATS or CRM</li>
+            <li>✅ <strong>Extendable</strong> - Can be wired to real storage or workflows</li>
+            <li>✅ <strong>Clear Next Steps</strong> - Sets expectations for a real hiring timeline</li>
           </ul>
         </div>
 
         <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
           <p style="color: #6b7280; font-size: 14px;">
-            Heartland Heating + Air<br>
-            Indianapolis & Midwest Region<br>
+            λlambda Heating & Air (Demo)<br>
+            Metro City Region<br>
             <a href="tel:+13175550123" style="color: #3b82f6;">(317) 555-0123</a> | 
-            <a href="mailto:careers@heartlandheatingair.com" style="color: #3b82f6;">careers@heartlandheatingair.com</a>
+            <a href="mailto:careers@example.com" style="color: #3b82f6;">careers@example.com</a>
           </p>
         </div>
       </div>
@@ -343,7 +343,7 @@ const sendEmails = async (formData) => {
   try {
     // Send notification to business owner
     const businessEmail = {
-      from: `"Heartland Heating + Air Contact Form" <${process.env.EMAIL_USER}>`,
+      from: `"λlambda Heating & Air Contact Form (Demo)" <${process.env.EMAIL_USER}>`,
       to: process.env.BUSINESS_EMAIL || process.env.EMAIL_USER,
       ...emailTemplates.businessNotification(formData)
     };
@@ -352,7 +352,7 @@ const sendEmails = async (formData) => {
     let customerEmail = null;
     if (formData.email) {
       customerEmail = {
-        from: `"Heartland Heating + Air" <${process.env.EMAIL_USER}>`,
+        from: `"λlambda Heating & Air (Demo)" <${process.env.EMAIL_USER}>`,
         to: formData.email,
         ...emailTemplates.customerConfirmation(formData)
       };
@@ -392,14 +392,14 @@ const sendJobApplicationEmails = async (formData) => {
   try {
     // Send notification to business owner
     const businessEmail = {
-      from: `"Heartland Heating + Air Job Application" <${process.env.EMAIL_USER}>`,
+      from: `"λlambda Heating & Air Job Application (Demo)" <${process.env.EMAIL_USER}>`,
       to: process.env.BUSINESS_EMAIL || process.env.EMAIL_USER,
       ...emailTemplates.jobApplicationNotification(formData)
     };
 
     // Send confirmation to applicant
     const applicantEmail = {
-      from: `"Heartland Heating + Air" <${process.env.EMAIL_USER}>`,
+      from: `"λlambda Heating & Air (Demo)" <${process.env.EMAIL_USER}>`,
       to: formData.email,
       ...emailTemplates.jobApplicationConfirmation(formData)
     };

@@ -6,8 +6,8 @@ export function createServiceAreas() {
     <section id="service-areas" class="section bg-white">
       <div class="container">
         <div class="section-header text-center">
-          <h2>Serving the Heart of Indiana</h2>
-          <p>Proudly providing expert HVAC services throughout the greater Indianapolis metropolitan area</p>
+          <h2>Example Service Coverage</h2>
+          <p>Demo service coverage map showing how a local business could communicate its primary and extended markets</p>
         </div>
         
         <div class="service-area-content">
@@ -21,7 +21,7 @@ export function createServiceAreas() {
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
-                title="Heartland Heating + Air Service Area Map">
+                title="Local Service Demo Service Area Map">
               </iframe>
               <div class="map-overlay">
                 <div class="service-radius">
@@ -32,8 +32,8 @@ export function createServiceAreas() {
             </div>
           </div>
           
-          <div class="service-area-summary">
-            <h3>Comprehensive Coverage</h3>
+            <div class="service-area-summary">
+              <h3>Comprehensive Demo Coverage</h3>
             <div class="coverage-stats">
               <div class="stat">
                 <i class="fas fa-map-marked-alt"></i>
@@ -52,8 +52,8 @@ export function createServiceAreas() {
               </div>
             </div>
             
-            <div class="primary-areas">
-              <h4>Primary Service Areas Include:</h4>
+              <div class="primary-areas">
+                <h4>Primary Demo Areas Include:</h4>
               <div class="area-tags">
                 <span class="area-tag">Indianapolis Metro</span>
                 <span class="area-tag">Carmel</span>

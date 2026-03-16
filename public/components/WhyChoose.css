@@ -37,7 +37,7 @@
 .why-icon {
   width: 3.5rem;
   height: 3.5rem;
-  background: var(--heartland-red);
+  background: var(--brand-primary);
   border-radius: 0.5rem;
   display: flex;
   align-items: center;
@@ -60,7 +60,7 @@
 .why-choose-card h3 {
   font-size: 1.125rem;
   font-weight: 600;
-  color: var(--heartland-blue);
+  color: var(--brand-secondary);
   margin-bottom: 0.75rem;
   line-height: 1.3;
 }

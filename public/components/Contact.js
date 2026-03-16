@@ -31,7 +31,7 @@ function createContactComponent() {
                 </div>
                 <div class="method-details">
                   <h4>Email</h4>
-                  <a href="mailto:info@heartlandheatingair.com" class="method-link">info@heartlandheatingair.com</a>
+                  <a href="mailto:hello@example.com" class="method-link">hello@example.com</a>
                   <span class="method-note">Detailed project specs welcome</span>
                 </div>
               </div>
@@ -42,7 +42,7 @@ function createContactComponent() {
                 </div>
                 <div class="method-details">
                   <h4>Service Area</h4>
-                  <span class="method-link">Indianapolis & Midwest Region</span>
+                  <span class="method-link">Metro City & Surrounding Demo Region</span>
                   <span class="method-note">Multi-property portfolios</span>
                 </div>
               </div>
@@ -181,7 +181,7 @@ function createContactComponent() {
                   <label class="consent-checkbox">
                     <input type="checkbox" name="consent" required />
                     <span class="checkbox-custom"></span>
-                    <span class="consent-text">I agree to receive text messages and calls from Heartland Heating + Air regarding my service request.</span>
+                    <span class="consent-text">I agree to receive text messages and calls from this demo local service brand regarding my service request.</span>
                   </label>
                   <div class="error-message" id="consent-error"></div>
                 </div>

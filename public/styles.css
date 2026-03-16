@@ -23,10 +23,10 @@
 
 /* Brand Colors */
 :root {
-  --heartland-red: #BE1E2D;
-  --heartland-blue: #0F2E6D;
-  --heartland-red-hover: #A31B26;
-  --heartland-blue-hover: #0A2456;
+  --brand-primary: #BE1E2D;
+  --brand-secondary: #0F2E6D;
+  --brand-primary-hover: #A31B26;
+  --brand-secondary-hover: #0A2456;
   --white: #ffffff;
   --gray-50: #f9fafb;
   --gray-100: #f3f4f6;
@@ -62,10 +62,10 @@ body {
 .bg-gray-800 { background-color: var(--gray-800); }
 .bg-gray-900 { background-color: var(--gray-900); }
 .bg-blue-50 { background-color: var(--blue-50); }
-.bg-heartland-red { background-color: var(--heartland-red); }
-.bg-heartland-blue { background-color: var(--heartland-blue); }
-.text-heartland-red { color: var(--heartland-red); }
-.text-heartland-blue { color: var(--heartland-blue); }
+.bg-brand-primary { background-color: var(--brand-primary); }
+.bg-brand-secondary { background-color: var(--brand-secondary); }
+.text-brand-primary { color: var(--brand-primary); }
+.text-brand-secondary { color: var(--brand-secondary); }
 
 /* Section Styles */
 .section {
@@ -79,7 +79,7 @@ body {
 .section-header h2 {
   font-size: clamp(2rem, 4vw, 2.5rem);
   font-weight: 700;
-  color: var(--heartland-blue);
+  color: var(--brand-secondary);
   margin-bottom: 1rem;
 }
 
@@ -93,9 +93,9 @@ body {
 
 /* Emergency Button Styles */
 .btn-emergency {
-  background: var(--heartland-red);
+  background: var(--brand-primary);
   color: white;
-  border: 2px solid var(--heartland-red);
+  border: 2px solid var(--brand-primary);
   font-weight: 600;
   transition: all 0.3s ease;
   text-decoration: none;
@@ -108,8 +108,8 @@ body {
 }
 
 .btn-emergency:hover {
-  background: var(--heartland-red-hover);
-  border-color: var(--heartland-red-hover);
+  background: var(--brand-primary-hover);
+  border-color: var(--brand-primary-hover);
   color: white;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(190, 30, 45, 0.3);
@@ -145,7 +145,7 @@ body {
 /* Focus styles for keyboard navigation */
 a:focus,
 button:focus {
-  outline: 2px solid var(--heartland-red);
+  outline: 2px solid var(--brand-primary);
   outline-offset: 2px;
 }
 

@@ -1,4 +1,4 @@
-/* Services Component Styles - Heartland Heating + Air */
+/* Services Component Styles - Local Service Demo */
 
 /* Services Section */
 #services.section {
@@ -33,7 +33,7 @@
 .service-card-compact:hover {
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
   transform: translateY(-3px);
-  border-color: var(--heartland-blue);
+  border-color: var(--brand-secondary);
 }
 
 .service-card-compact.emergency {
@@ -72,7 +72,7 @@
   font-size: 1.125rem;
   font-weight: 600;
   margin-bottom: 0.75rem;
-  color: var(--heartland-blue);
+  color: var(--brand-secondary);
 }
 
 .service-card-compact.emergency h3 {
@@ -124,7 +124,7 @@
 }
 
 .btn-compact.btn-primary {
-  background: var(--heartland-blue);
+  background: var(--brand-secondary);
   color: var(--white);
 }
 
@@ -149,7 +149,7 @@
 
 .btn-compact.btn-emergency {
   background: var(--white);
-  color: var(--heartland-red);
+  color: var(--brand-primary);
   font-weight: 600;
   border: 2px solid var(--white);
   box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);

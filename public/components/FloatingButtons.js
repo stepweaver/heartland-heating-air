@@ -26,7 +26,7 @@ export class FloatingButtons {
           <div class="chat-header">
             <div class="chat-company">
               <i class="fas fa-house-chimney-window"></i>
-              <span>Heartland Heating + Air</span>
+              <span>λlambda Heating & Air</span>
             </div>
             <button class="chat-close" id="chatClose">
               <i class="fas fa-times"></i>

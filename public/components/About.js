@@ -7,15 +7,15 @@ export function createAboutComponent() {
             <i class="fas fa-flag-usa"></i>
             <span>American Values</span>
           </div>
-          <h2>Meet Forrest Landis</h2>
-          <p class="about-subtitle">Founder & Lead Technician</p>
+          <h2>Meet the Demo Owner</h2>
+          <p class="about-subtitle">Founder & Lead Operator</p>
         </div>
 
         <div class="about-main">
           <div class="about-story">
             <div class="story-content">
               <p class="story-lead">
-                <strong>Born and raised in America's heartland,</strong> I founded Heartland Heating + Air on the values that built this nation: hard work, honest dealing, and treating every customer like family.
+                <strong>Born and raised in a service-first family,</strong> I built this demo project around the same values that drive real local businesses: hard work, honest dealing, and treating every customer like a neighbor.
               </p>
               
               <p>
@@ -75,7 +75,7 @@ export function createAboutComponent() {
 
         <div class="about-cta">
           <div class="cta-content">
-            <h3>Ready for the Heartland Difference?</h3>
+            <h3>Ready to Explore the Demo?</h3>
             <div class="cta-actions">
               <a href="#schedule" class="btn btn-primary">
                 <i class="fas fa-calendar-check"></i>
@@ -113,11 +113,10 @@ export function createAboutComponent() {
           <div class="story-content">
             <h3>Why We Do What We Do</h3>
             <blockquote>
-              "Growing up in the heartland, I learned that your word is your bond and your neighbors are your family. 
-              When I started Heartland Heating + Air, I wanted to bring those same values to every home and business we serve."
+              "This demo exists to show how a thoughtfully designed local service site can scale content, SEO, and lead generation without sacrificing clarity or user experience."
             </blockquote>
             <div class="story-signature">
-              <span>- Forrest Landis, Founder</span>
+              <span>- Demo Owner</span>
             </div>
           </div>
         </div>

@@ -1,8 +1,9 @@
 {
-  "name": "heartland-heating-air",
+  "name": "local-service-seo-demo",
   "version": "1.0.0",
-  "description": "Heartland Heating + Air HVAC company website",
+  "description": "Local service SEO demo site with generated location and service landing pages.",
   "main": "server.js",
+  "type": "commonjs",
   "scripts": {
     "dev": "node server.js",
     "start": "node server.js",
@@ -14,12 +15,13 @@
     "seo-build": "npm run generate-seo && npm run build"
   },
   "keywords": [
-    "hvac",
-    "heating",
-    "air-conditioning",
-    "website"
+    "local-seo",
+    "lead-generation",
+    "service-business",
+    "static-site",
+    "seo-demo"
   ],
-  "author": "Hero Point Consulting",
+  "author": "Stephen Weaver",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",

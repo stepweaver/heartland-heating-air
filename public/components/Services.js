@@ -1,5 +1,5 @@
-// Services Component for Heartland Heating + Air
-// Essential HVAC Services section with grid layout
+// Services Component for Local Service Demo
+// Essential service offerings section with grid layout
 
 function createServicesComponent() {
   const services = [

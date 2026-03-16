@@ -6,7 +6,7 @@
   bottom: 2rem;
   right: 2rem;
   z-index: 1000;
-  background: var(--heartland-red);
+  background: var(--brand-primary);
   color: var(--white);
   padding: 1rem 1.5rem;
   border-radius: 8px;
@@ -20,11 +20,11 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  border: 2px solid var(--heartland-red);
+  border: 2px solid var(--brand-primary);
 }
 
 .floating-emergency:hover {
-  background: var(--heartland-red-hover);
+  background: var(--brand-primary-hover);
   transform: translateY(-3px);
   box-shadow: 0 8px 25px rgba(220, 38, 38, 0.4);
   color: var(--white);
@@ -73,7 +73,7 @@
   position: absolute;
   top: -5px;
   right: -5px;
-  background: var(--heartland-red);
+  background: var(--brand-primary);
   color: var(--white);
   border-radius: 50%;
   width: 24px;
@@ -110,7 +110,7 @@
 }
 
 .chat-header {
-  background: var(--heartland-blue);
+  background: var(--brand-secondary);
   color: var(--white);
   padding: 16px 20px;
   border-radius: 16px 16px 0 0;
@@ -154,7 +154,7 @@
 .greeting-avatar {
   width: 40px;
   height: 40px;
-  background: var(--heartland-blue);
+  background: var(--brand-secondary);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -196,7 +196,7 @@
 }
 
 .chat-option:hover {
-  background: var(--heartland-blue);
+  background: var(--brand-secondary);
   color: var(--white);
   transform: translateX(4px);
 }
